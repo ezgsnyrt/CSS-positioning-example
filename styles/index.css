@@ -38,6 +38,7 @@
 }
 .navigation__links li a:hover {
     background-color: #FBEBCB;
+    text-decoration: underline;
 }
 .navigation__links li a:focus,
 .btn:focus {
