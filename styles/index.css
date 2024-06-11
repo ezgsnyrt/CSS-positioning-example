@@ -309,8 +309,25 @@ h4{
     font-weight: 600;
 }
 
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .header__info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .header__infotext,
+    .header__image {
+        width: 100%;
+    }
 
+}
+
+@media only screen and (min-width:768px) and (max-width:1439px) {
+
+}
 
 
 
