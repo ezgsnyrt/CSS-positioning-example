@@ -320,7 +320,24 @@ h4{
 
     .header__infotext,
     .header__image {
-        width: 100%;
+        width: 95%;
+    }
+
+    .header__title {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+
+    .header__description {
+        width: 95%;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        text-align: justify;
+    }
+
+    .buttons__header .btn {
+        width: 50%;
+        font-size: 0.8rem;
     }
 
 }
