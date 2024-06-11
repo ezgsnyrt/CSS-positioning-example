@@ -323,7 +323,8 @@ h4{
         width: 95%;
     }
 
-    .header__title {
+    .header__title,
+    .feature__title h2 {
         font-size: 1.6rem;
         line-height: 2.4rem;
     }
@@ -340,6 +341,27 @@ h4{
         font-size: 0.8rem;
     }
 
+    .feature__info {
+        width: 100%;
+    }
+
+    .feature__card-decription h4 {
+        font-size: 0.8rem;
+    }
+
+    .feature__card-decription p {
+        font-size: 0.7rem;
+        text-align: justify;
+    }
+
+    .button__feature  {
+        width: 40%;
+    }
+
+    .button__feature .btn__feature {
+        width: 100%;
+        max-width: 150px;
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width:1439px) {
